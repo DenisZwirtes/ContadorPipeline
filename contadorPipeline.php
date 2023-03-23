@@ -15,7 +15,7 @@ function contadorPipeline($pipelineString)
 function convPipeString($pipelineArray)
 {
     $pipelineString = implode("|", $pipelineArray);
-    echo "\n $pipelineString";
+    echo "\n\n $pipelineString";
     return $pipelineString;
 }
 
