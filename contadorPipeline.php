@@ -1,7 +1,7 @@
 <?php
 
 $pipelineString = '';
-function contadorPipeline($pipelineString)
+function manipularPipeline($pipelineString)
 {
     $pipelineArray = explode('|', $pipelineString, -1);
 
@@ -21,5 +21,5 @@ function convPipeString($pipelineArray)
 
 
 
-$pipelineArray = contadorPipeline($pipelineString);
+$pipelineArray = manipularPipeline($pipelineString);
 $pipelineString = convPipeString($pipelineArray);
